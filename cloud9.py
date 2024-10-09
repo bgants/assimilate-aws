@@ -3,6 +3,7 @@
 import boto3
 import click
 
+
 # build a function that lists all cloud9 environments
 def list_cloud9():
     """List all cloud9 environments"""

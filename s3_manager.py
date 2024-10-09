@@ -3,6 +3,7 @@
 import boto3
 import click
 
+
 # write a function that recursively deletes all objects in a list of buckets
 def delete_buckets(buckets):
     s3 = boto3.client("s3")
